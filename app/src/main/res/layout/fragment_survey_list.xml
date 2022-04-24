@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dim30"
+        tools:context=".views.fragments.SurveyListFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSurveyList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!--<androidx.cardview.widget.CardView
+            android:id="@+id/cardTask"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim100"
+            android:layout_margin="@dimen/dim10"
+            android:elevation="@dimen/dim10"
+            app:cardCornerRadius="@dimen/dim10"
+            android:padding="@dimen/dim10">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please add task list here" />
+        </androidx.cardview.widget.CardView>-->
+    </RelativeLayout>
+</layout>

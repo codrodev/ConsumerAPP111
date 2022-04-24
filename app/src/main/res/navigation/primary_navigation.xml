@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/primary_navigation"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.yo4gis.consumersurvey.views.fragments.SignInFragment"
+        android:label="SignInFragment" >
+        <action
+            android:id="@+id/action_signInFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.yo4gis.consumersurvey.views.fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_surveyListFragment"
+            app:destination="@id/surveyListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.yo4gis.consumersurvey.views.fragments.MapFragment"
+        android:label="MapFragment" >
+        <action
+            android:id="@+id/action_mapFragment_to_buildingFormFragment"
+            app:destination="@id/buildingFormFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_consumerSurveyFormFragment"
+            app:destination="@id/consumerSurveyFormFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buildingFormFragment"
+        android:name="com.yo4gis.consumersurvey.views.fragments.BuildingFormFragment"
+        android:label="BuildingFormFragment">
+        <action
+            android:id="@+id/action_buildingFormFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/consumerSurveyFormFragment"
+        android:name="com.yo4gis.consumersurvey.views.fragments.ConsumerSurveyFormFragment"
+        android:label="ConsumerSurveyFormFragment">
+    <action
+        android:id="@+id/action_consumerSurveyFormFragment"
+        app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/surveyListFragment"
+        android:name="com.yo4gis.consumersurvey.views.fragments.SurveyListFragment"
+        android:label="SurveyListFragment" >
+        <action
+            android:id="@+id/action_surveyListFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+</navigation>

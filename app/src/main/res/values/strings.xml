@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Consumer Survey</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="add_consumer_data">Add Consumer Data</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="map_creation_issue">Sorry! unable to create maps</string>
+    <string name="welcome">Welcome!</string>
+    <string name="data_sync">Data Sync</string>
+    <string name="download">Download</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="consumer_survey">Consumer Survey</string>
+    <string name="consumer_survey_messsage">Last Survey:\n01/04/2022</string>
+    <string name="consumer_sync_messsage">Last Sync:\n01/04/2022</string>
+    <string name="consumer_download_messsage">Last Download:\n01/04/2022</string>
+    <string name="survey_task">Survey Task</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">error</string>
+    <string name="api_error">Problem in data sync!</string>
+    <string name="no_task_assigned">No task is assigned to you!</string>
+    <string name="successfully">Save successfully!</string>
+    <string name="buildingsuccessfully">Save successfully!</string>
+    <string name="no_task">No Task</string>
+    <string-array name="category">
+        <item>LTD</item>
+        <item>Domestic and Non-Commercial</item>
+        <item>Tariff LTD</item>
+        <item>Low Income Group</item>
+        <item>Tariff LTD</item>
+        <item>Domestic Mixed</item>
+        <item>Tariff LTC</item>
+        <item>Commercial</item>
+        <item>Tariff LTP</item>
+        <item>Motive Power</item>
+        <item>Ind. Up to 20 HP</item>
+        <item>Ind. 21 to 50 HP</item>
+        <item>Ind. above 50 HP</item>
+        <item>LTP</item>
+        <item>Ice manufacturing</item>
+        <item>Mixed (Hotel Industries)</item>
+        <item>LTAG-Agriculture</item>
+        <item>LTPL-Public lighting</item>
+        <item>LTPWW-Public water works</item>
+        <item>LT Temporary</item>
+        <item>Tariff HT-Mixed</item>
+        <item>Tariff HTI- Industrial</item>
+        <item>HT-Hotel Ind</item>
+        <item>HTAG</item>
+        <item>HTPWW</item>
+        <item>Defense</item>
+        <item>EHTI</item>
+        <item>Industrial</item>
+        <item>HT-Public water supply and sewage</item>
+        <item>LTD Govt.</item>
+        <item>LTC Govt.</item>
+        <item>Public Lighting by PWD and Tourism </item>
+    </string-array>
+
+    <string-array name="SupplyVoltage">
+        <item>33</item>
+        <item>11</item>
+        <item>0.440</item>
+        <item>0.240</item>
+    </string-array>
+    <string-array name="NoOfPhases">
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ConnectionStatus">
+        <item>PD</item>
+        <item>Live</item>
+        <item>Temporary Disconnected</item>
+    </string-array>
+    <string-array name="PoleFPSPGPSID">
+        <item>Available</item>
+        <item>Not Available</item>
+        <item>Damaged</item>
+    </string-array>
+    <string-array name="Physicallocationofmeter">
+        <item>INSIDE</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="ViewingGlass">
+        <item>OK</item>
+        <item>BROKEN</item>
+        <item>FOGGED</item>
+    </string-array>
+    <string-array name="TypeofMeter">
+        <item>ELECTRO MECHANICAL</item>
+        <item>HYBRID</item>
+        <item>STATIC</item>
+    </string-array>
+
+    <string-array name="Seal">
+        <item>OK</item>
+        <item>BROKEN</item>
+
+    </string-array>
+    <string-array name="Polehavingmultiplefeeder">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="ruralurban">
+        <item>Rural</item>
+        <item>Urban</item>
+    </string-array>
+
+    <string-array name="building_type">
+        <item>Commercial</item>
+        <item>Residential</item>
+        <item>Residential+Commercial</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="network_survey_messsage">Last Survey: 01/04/2022</string>
+    <string name="network_sync_messsage">Last Sync:01/04/2022</string>
+    <string name="network_download_messsage">Last Download: 01/04/2022</string>
+    <string name="network_survey">Consumer Survey</string>
+    <string name="let_s_connect">Let\'s connect</string>
+</resources>
